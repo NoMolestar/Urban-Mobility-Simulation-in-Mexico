@@ -8,22 +8,9 @@ public class MoveTest : MonoBehaviour
     public float speed;
     public Transform[] obj;
     public Transform[] targets;
-    public Camera cam;
-    public Vector3 offset;
-    public GameObject carInfoPanel;
-    public TextMeshProUGUI carInfoText;
-    public TextMeshProUGUI velocityInfoText;
-    public TextMeshProUGUI targetInfoText;
-
-    private bool followingCar;
-    private Transform car;
-    private Vector3 defaultPos;
-    private Quaternion defaultRot;
 
     void Start()
     {
-        defaultPos = cam.transform.position;
-        defaultRot = cam.transform.rotation;
         StartCoroutine(GetText());
     }
 
@@ -34,55 +21,6 @@ public class MoveTest : MonoBehaviour
             obj[i].LookAt(targets[i]);
             obj[i].position = Vector3.MoveTowards(obj[i].position,new Vector3(targets[i].position.x,obj[i].position.y,obj[i].position.z), speed*Time.deltaTime);
         }
-    
-        if(Input.GetMouseButtonDown(0))
-        {
-            RaycastHit hitInfo = new RaycastHit();
-            bool hit = Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hitInfo);
-            if (hit) 
-            {
-                if (hitInfo.transform.gameObject.tag == "Car")
-                {
-                    car = hitInfo.transform;
-                    followingCar = true;
-                }
-                else
-                {
-                    followingCar = false;
-                }
-            }
-            else
-            {
-                followingCar = false;
-            }
-        }
-
-        if(followingCar)
-        {
-            cam.transform.LookAt(car);
-            cam.transform.position = car.position + offset;
-            ShowCarInfo();
-        }
-        else
-        {
-            cam.transform.position = defaultPos;
-            cam.transform.rotation = defaultRot;
-            HideCarInfo();
-        }
-    
-    }
-
-    void ShowCarInfo()
-    {
-        carInfoPanel.SetActive(true);
-        carInfoText.text = car.transform.gameObject.name;
-        velocityInfoText.text = speed.ToString();
-        targetInfoText.text = targets[0].position.x.ToString() + ", " + targets[0].position.y.ToString() + ", " + targets[0].position.z.ToString();
-    }
-
-    void HideCarInfo()
-    {
-        carInfoPanel.SetActive(false);
     }
 
     IEnumerator GetText() {

@@ -15,11 +15,11 @@ C:/Users/carlo/Documents/GitHub/Urban-Mobility-Simulation-in-Mexico/Reto
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64282
+52330
 Successfully changed project path to: C:/Users/carlo/Documents/GitHub/Urban-Mobility-Simulation-in-Mexico/Reto
 C:/Users/carlo/Documents/GitHub/Urban-Mobility-Simulation-in-Mexico/Reto
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 64.77 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 44.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.21f1 (a38c86f6690f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005493 seconds.
+Registered in 0.002905 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 42.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 41.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.220 seconds
+- Completed reload, in  1.493 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5220ms)
-		BeginReloadAssembly (87ms)
+	ReloadAssembly (1494ms)
+		BeginReloadAssembly (83ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (704ms)
-			LoadAssemblies (84ms)
+		EndReloadAssembly (589ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (235ms)
+			SetupTypeCache (204ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (268ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (218ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (42ms)
-				BeforeProcessingInitializeOnLoad (22ms)
-				ProcessInitializeOnLoadAttributes (148ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (110ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.268116 seconds.
+Registered in 0.006323 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.552 seconds
+- Completed reload, in  1.383 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1554ms)
-		BeginReloadAssembly (219ms)
+	ReloadAssembly (1384ms)
+		BeginReloadAssembly (188ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1239ms)
-			LoadAssemblies (173ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1109ms)
+			LoadAssemblies (115ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (419ms)
+			SetupTypeCache (412ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (470ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (406ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (150ms)
-				ProcessInitializeOnLoadAttributes (290ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (273ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1489 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.2 MB.
-System memory in use after: 68.3 MB.
+System memory in use before: 68.4 MB.
+System memory in use after: 68.4 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1921.
-Total: 3.677000 ms (FindLiveObjects: 0.206600 ms CreateObjectMapping: 0.076700 ms MarkObjects: 3.276900 ms  DeleteObjects: 0.115600 ms)
+Total: 3.728000 ms (FindLiveObjects: 0.201600 ms CreateObjectMapping: 0.074900 ms MarkObjects: 3.354600 ms  DeleteObjects: 0.095400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,601 +131,1057 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_1.mat
-  artifactKey: Guid(fbdfc4068464b064281f360c6ef2121c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_1.mat using Guid(fbdfc4068464b064281f360c6ef2121c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09901fa6dda9280209e811b284b83eb0') in 0.214806 seconds 
-  Import took 0.217847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Textures/LicensePlateUsNormal.tga
-  artifactKey: Guid(e1f01a5d748071143aa275c6e784f2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Textures/LicensePlateUsNormal.tga using Guid(e1f01a5d748071143aa275c6e784f2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353668586d2bd66dc7de080cca162836') in 0.204463 seconds 
-  Import took 0.207492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Textures/LicensePlateEuAlbedo.tga
-  artifactKey: Guid(0df4a524803b2f24ca3edfa136607c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Textures/LicensePlateEuAlbedo.tga using Guid(0df4a524803b2f24ca3edfa136607c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aba0f7041cc36864079d3dd842177ed') in 0.025555 seconds 
-  Import took 0.031303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Textures/LicensePlateEuMetallicSmoothness.tga
-  artifactKey: Guid(2dd0cdd68b9323f478381e69b5eafde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Textures/LicensePlateEuMetallicSmoothness.tga using Guid(2dd0cdd68b9323f478381e69b5eafde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34cbb41bd947130c3c99b77f11fc90e') in 0.023693 seconds 
-  Import took 0.032682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Textures/MainMetallicSmoothness.tga
-  artifactKey: Guid(932879714a12cdb42bb22b2305f3ab4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Textures/MainMetallicSmoothness.tga using Guid(932879714a12cdb42bb22b2305f3ab4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1c5c97ef7c391e6a3fa4c3ff2efa4f') in 0.034097 seconds 
-  Import took 0.048069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000555 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_3.mat
-  artifactKey: Guid(8e204c4cedb3c87479171e0f8140bffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_3.mat using Guid(8e204c4cedb3c87479171e0f8140bffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85ce2895a06aee67142039d98ab111b') in 0.035889 seconds 
-  Import took 0.051283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001170 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_K.mat
-  artifactKey: Guid(b25146dfc9aeed84696a9e2e6c3ddf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_K.mat using Guid(b25146dfc9aeed84696a9e2e6c3ddf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c306b8ddf4af633cc68de7e27bda398') in 0.037221 seconds 
-  Import took 0.041508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_U.mat
-  artifactKey: Guid(4dadd630fd3a3ac4991df7784282eb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_U.mat using Guid(4dadd630fd3a3ac4991df7784282eb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc6209a8163bcca4882f6b2f7589952') in 0.061011 seconds 
-  Import took 0.070836 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000493 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_P.mat
-  artifactKey: Guid(1f29556762d98084daaea382c96c6b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_P.mat using Guid(1f29556762d98084daaea382c96c6b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0af3d00a9b7f6afacf5260d2fba9609') in 0.034687 seconds 
-  Import took 0.045272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_R.mat
-  artifactKey: Guid(f1f082c5069e2ad4fa2317680a8e8ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_R.mat using Guid(f1f082c5069e2ad4fa2317680a8e8ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f1349a7371f08d5d9136be47124156') in 0.033741 seconds 
-  Import took 0.036873 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_E.mat
-  artifactKey: Guid(86e38176506254945b5a680aa8263f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_E.mat using Guid(86e38176506254945b5a680aa8263f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b288f6b492b319a3a29ec84c862080a4') in 0.026953 seconds 
-  Import took 0.039302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000951 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Textures/MainNormal.tga
-  artifactKey: Guid(b46a62e0ade980945a5718dbf40dab0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Textures/MainNormal.tga using Guid(b46a62e0ade980945a5718dbf40dab0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3f8fb6731d924d1eb4a4e87659ea90') in 0.023264 seconds 
-  Import took 0.026674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_7.mat
-  artifactKey: Guid(528dcd708f568184aa3ec5ac978ad713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_7.mat using Guid(528dcd708f568184aa3ec5ac978ad713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329c02d1ca7ad96ce07b04c1c2bc9886') in 0.046058 seconds 
-  Import took 0.049782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_9.mat
-  artifactKey: Guid(1ab5291729bab5841b3bdf4049baee7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_9.mat using Guid(1ab5291729bab5841b3bdf4049baee7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72d2091f42e66c148e26643913698f5') in 0.032256 seconds 
-  Import took 0.035856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_X.mat
-  artifactKey: Guid(212a924f355dbbb45925ac2db45f241b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_X.mat using Guid(212a924f355dbbb45925ac2db45f241b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c17229c1483f33c7da58e328b8043b3') in 0.055767 seconds 
-  Import took 0.061523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_D.mat
-  artifactKey: Guid(f9e69dada256acc4aaa9e6ce3745d4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_D.mat using Guid(f9e69dada256acc4aaa9e6ce3745d4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7924e3466674f0ca4c4db362739fe0b') in 0.050666 seconds 
-  Import took 0.053948 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Textures/MainAlbedo.tga
-  artifactKey: Guid(456720bb8704ce243ba017dd86d9e185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Textures/MainAlbedo.tga using Guid(456720bb8704ce243ba017dd86d9e185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faeec846d0c43c9b937ac09aa5e65bee') in 0.033073 seconds 
-  Import took 0.038261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Textures/LicensePlateUsAlbedo.tga
-  artifactKey: Guid(3bc4946a57a796149af797bb99194794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Textures/LicensePlateUsAlbedo.tga using Guid(3bc4946a57a796149af797bb99194794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3df356af2e4903b7f661d5f16491f87') in 0.019216 seconds 
-  Import took 0.023862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_-.mat
-  artifactKey: Guid(bb854371ee2e3fa4fb3dc0eed9c76a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_-.mat using Guid(bb854371ee2e3fa4fb3dc0eed9c76a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd730c0733a13a765d36b5cf7b161cc2a') in 0.045826 seconds 
-  Import took 0.049312 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Textures/Tire01Albedo.tga
-  artifactKey: Guid(b10ff25c59fd61245b30c3351b2c17d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Textures/Tire01Albedo.tga using Guid(b10ff25c59fd61245b30c3351b2c17d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d56ec4dd5830c59d542cecae56c25db') in 0.031490 seconds 
-  Import took 0.038420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001362 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_2.mat
-  artifactKey: Guid(2ee8a5e330cbb894f9a23c77716e8e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_2.mat using Guid(2ee8a5e330cbb894f9a23c77716e8e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca4ad271d3bf8a517695406a7876683') in 0.039944 seconds 
-  Import took 0.045081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Textures/NumberUSAA.tga
-  artifactKey: Guid(a6180b498a8bcf242ae1ab3bea6676d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Textures/NumberUSAA.tga using Guid(a6180b498a8bcf242ae1ab3bea6676d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29adf77fb6e0ce846e9cc858a6d02611') in 0.026562 seconds 
-  Import took 0.033049 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002076 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_F.mat
-  artifactKey: Guid(ac7b1d966e243384d88de65c7061ed6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_F.mat using Guid(ac7b1d966e243384d88de65c7061ed6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695857cb6ce0362e525563572fa160ad') in 0.045528 seconds 
-  Import took 0.056333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001076 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Textures/Tire01MetallicSmoothness.tga
-  artifactKey: Guid(bf2bbbc49892cb944ba90e24050d659c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Textures/Tire01MetallicSmoothness.tga using Guid(bf2bbbc49892cb944ba90e24050d659c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b20545889c306f6ebcace16609ae7c') in 0.037828 seconds 
-  Import took 0.044957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_L.mat
-  artifactKey: Guid(44fc7ec907a055e4a90fa20946699f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_L.mat using Guid(44fc7ec907a055e4a90fa20946699f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbb67f6283da790933519ba8ce66e71') in 0.025471 seconds 
-  Import took 0.029831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000791 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_N.mat
-  artifactKey: Guid(5cd413fdd448b924abba62ad01ca5b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_N.mat using Guid(5cd413fdd448b924abba62ad01ca5b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794c70985ed075c07de8a1a2a8fc1f07') in 0.033054 seconds 
-  Import took 0.043731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_Y.mat
-  artifactKey: Guid(465c790762d12954398af879e47925f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_Y.mat using Guid(465c790762d12954398af879e47925f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f46810b0d3d803a1c1976af87e5a90') in 0.047078 seconds 
-  Import took 0.056109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Textures/LicensePlateEuNormal.tga
-  artifactKey: Guid(8aa4e755b4f90cb4a8c62d4c67d5124a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Textures/LicensePlateEuNormal.tga using Guid(8aa4e755b4f90cb4a8c62d4c67d5124a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72fd3538cbaecb1a72144b70c7d4bd2e') in 0.022674 seconds 
-  Import took 0.028123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_Q.mat
-  artifactKey: Guid(b2510a07757da8f49a8512d069c64442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_Q.mat using Guid(b2510a07757da8f49a8512d069c64442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58dfba2c5e354a9f31967824e3820f82') in 0.042111 seconds 
-  Import took 0.046136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_0.mat
-  artifactKey: Guid(834abcce82b5af544a677fc70295a80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_0.mat using Guid(834abcce82b5af544a677fc70295a80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31af5735487fd7098db2dcd54742325d') in 0.032102 seconds 
-  Import took 0.036257 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Textures/NumberUEA.tga
-  artifactKey: Guid(4d7e0f32de23d7046b1031cf6ea30916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Textures/NumberUEA.tga using Guid(4d7e0f32de23d7046b1031cf6ea30916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a77e08593726380dc4765158eb08b9') in 0.040332 seconds 
-  Import took 0.044259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_6.mat
-  artifactKey: Guid(d160598b65d355e4c8dbde0974fcc527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_6.mat using Guid(d160598b65d355e4c8dbde0974fcc527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b917e61786bd43420d05b03013cc103f') in 0.039991 seconds 
-  Import took 0.044359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Textures
-  artifactKey: Guid(926e8672afb64874793957250ebc0feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Textures using Guid(926e8672afb64874793957250ebc0feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3b46fe093281d805cf3d11ac22e5eb') in 0.021366 seconds 
-  Import took 0.028884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_T.mat
-  artifactKey: Guid(3d73aad28c3ae5b4faae93a07bed129e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_T.mat using Guid(3d73aad28c3ae5b4faae93a07bed129e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2921b843bfc40ace14a5cedd047008') in 0.024502 seconds 
-  Import took 0.029464 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate
-  artifactKey: Guid(7d438fa1f51bb4a4889a1616280bf60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate using Guid(7d438fa1f51bb4a4889a1616280bf60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e60d7a39dddb1a13dfe2a4c380aec0') in 0.024170 seconds 
-  Import took 0.031468 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_4.mat
-  artifactKey: Guid(85ba04a0355970941a75193ed9334dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_4.mat using Guid(85ba04a0355970941a75193ed9334dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd6076653c92317ae800d94afa00940') in 0.031235 seconds 
-  Import took 0.037142 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000684 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_A.mat
-  artifactKey: Guid(0c570976a82d0ed4ca351b6310f8c590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_A.mat using Guid(0c570976a82d0ed4ca351b6310f8c590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2578c7cec88a42103e7062b5bebea5') in 0.051747 seconds 
-  Import took 0.059090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000450 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_M.mat
-  artifactKey: Guid(d97331bb562e1b14badc51ad36f2e55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_M.mat using Guid(d97331bb562e1b14badc51ad36f2e55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1782063aece01dd1e6abe367f2d2372e') in 0.025108 seconds 
-  Import took 0.030897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_G.mat
-  artifactKey: Guid(ae209674c9a4bc9468eafa6ac62e75c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_G.mat using Guid(ae209674c9a4bc9468eafa6ac62e75c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2d4b5e1852e12ad9c80aa5d99172b9') in 0.035301 seconds 
-  Import took 0.038843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Textures/NumberEUN.tga
-  artifactKey: Guid(bbe08f768b2cd35439010f6a4815b2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Textures/NumberEUN.tga using Guid(bbe08f768b2cd35439010f6a4815b2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d73a6eb6b310cb52c2ef2b0189ca44') in 0.042754 seconds 
-  Import took 0.046273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000450 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_H.mat
-  artifactKey: Guid(fcac1c483fda6f94ca7c85597861ed18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_H.mat using Guid(fcac1c483fda6f94ca7c85597861ed18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50b485962579685cf88074da74ad87c') in 0.040370 seconds 
-  Import took 0.045471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_O.mat
-  artifactKey: Guid(650c397a80ff9984390119484e8a3f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_O.mat using Guid(650c397a80ff9984390119484e8a3f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1dc0997ebe215d7b702a3c5b9e05740') in 0.044743 seconds 
-  Import took 0.052563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000510 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_I.mat
-  artifactKey: Guid(d355517730750bb4c9dc9332a941d2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_I.mat using Guid(d355517730750bb4c9dc9332a941d2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fe8a79653d0451a45c74e78e26ab78') in 0.038912 seconds 
-  Import took 0.043357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000457 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Textures/Tire01Normal.tga
-  artifactKey: Guid(a43d8702aaba7f84ca3b1595c99dffa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Textures/Tire01Normal.tga using Guid(a43d8702aaba7f84ca3b1595c99dffa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9006ecdd04423d9489e836d722c29b24') in 0.025177 seconds 
-  Import took 0.033287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000581 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle
-  artifactKey: Guid(49c301f91ac235941bcf8cb6cedd0e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle using Guid(49c301f91ac235941bcf8cb6cedd0e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87f73f18dc061f4eb8f6e5fa3a15ab1') in 0.029238 seconds 
-  Import took 0.039424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002409 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Textures/LicensePlateUsMetallicSmoothness.tga
-  artifactKey: Guid(8efe46c008604fa4bb7c10014feccf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Textures/LicensePlateUsMetallicSmoothness.tga using Guid(8efe46c008604fa4bb7c10014feccf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6beff9578d4667fa01c9243b45df97') in 0.020547 seconds 
-  Import took 0.027304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_C.mat
-  artifactKey: Guid(f05fda16e2ca84a44a63a374ba649edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_C.mat using Guid(f05fda16e2ca84a44a63a374ba649edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffa3fada8a8db46aaed89c3e7c794a4') in 0.048961 seconds 
-  Import took 0.053240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000462 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_1.mat
-  artifactKey: Guid(485b5b6c9be8bc84fa20faf56e94b536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_1.mat using Guid(485b5b6c9be8bc84fa20faf56e94b536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0f0b7bdd5d74408b310727585fb1a2') in 0.033399 seconds 
-  Import took 0.038594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Textures/NumberUSAN.tga
-  artifactKey: Guid(c0150beb3cac24a4aa24495ae3667f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Textures/NumberUSAN.tga using Guid(c0150beb3cac24a4aa24495ae3667f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a0902414eaafec165f3ff34dd49ce1') in 0.044831 seconds 
-  Import took 0.055378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Textures/WindowsAlbedo.tga
-  artifactKey: Guid(1285ef67c09f7d241841fc30db16c05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Textures/WindowsAlbedo.tga using Guid(1285ef67c09f7d241841fc30db16c05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd512e1cf8aa413bfe4d7a6e730a2cac2') in 0.029761 seconds 
-  Import took 0.033753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Textures/WindowMetalness.tga
-  artifactKey: Guid(0198e5de617db5b4d8bd3ac6fff2a827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Textures/WindowMetalness.tga using Guid(0198e5de617db5b4d8bd3ac6fff2a827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a266e9a9750124e8767994cccc3ef646') in 0.022623 seconds 
-  Import took 0.028804 seconds .
+  path: Assets/Traffic Lights/Textures/emit.png
+  artifactKey: Guid(86b18d9b4ae36a9429307ac5ad15310a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Textures/emit.png using Guid(86b18d9b4ae36a9429307ac5ad15310a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbc396864e0212584350a9a6f04d96a') in 0.093295 seconds 
+  Import took 0.096271 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000281 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_W.mat
-  artifactKey: Guid(12b56126643da6144ace9de79215fadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_W.mat using Guid(12b56126643da6144ace9de79215fadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2f9bf1f02de03646190ef2e8d0d72c') in 0.054436 seconds 
-  Import took 0.058485 seconds .
+  path: Assets/Traffic Lights/Textures/Tarbo_CITY_Texture.png
+  artifactKey: Guid(e33e8ed52134e9d4894b4b8d46fe3188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Textures/Tarbo_CITY_Texture.png using Guid(e33e8ed52134e9d4894b4b8d46fe3188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84312c050aea6957fbab627a19c61cec') in 0.032665 seconds 
+  Import took 0.037396 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Textures/BrakeDiscGlow.tga
-  artifactKey: Guid(cfdd95c8e55bf26419c915255b1ae03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Textures/BrakeDiscGlow.tga using Guid(cfdd95c8e55bf26419c915255b1ae03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e549891c70accc1a8ab3b8f38141291e') in 0.036062 seconds 
-  Import took 0.052184 seconds .
+  Time since last request: 0.000396 seconds.
+  path: Assets/Traffic Lights/Textures
+  artifactKey: Guid(ee87a74ee2e5c4044a59f92192366173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Textures using Guid(ee87a74ee2e5c4044a59f92192366173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ebdc0bfbc6630f11f6987f94a3c595') in 0.010438 seconds 
+  Import took 0.017245 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000566 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials
-  artifactKey: Guid(b652f2d5a182fda478044adb0ea663cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials using Guid(b652f2d5a182fda478044adb0ea663cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf39a93e5f529306df436c9468af3198') in 0.011763 seconds 
-  Import took 0.021906 seconds .
+  Time since last request: 1.202821 seconds.
+  path: Assets/Traffic Lights/Materials/Floor.mat
+  artifactKey: Guid(5fd138741043b5a418c7869735a2c88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Materials/Floor.mat using Guid(5fd138741043b5a418c7869735a2c88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87c9ceb32f288cc6b041d8ca572041d') in 0.103555 seconds 
+  Import took 0.107602 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_0.mat
-  artifactKey: Guid(a4897b9f9aaf6e94d9a3a6ef8793bb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_0.mat using Guid(a4897b9f9aaf6e94d9a3a6ef8793bb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffec20995fe6fdc334fe2419a1b7415') in 0.025372 seconds 
-  Import took 0.034294 seconds .
+  Time since last request: 0.000352 seconds.
+  path: Assets/Traffic Lights/Materials/Tarbo_CITY.mat
+  artifactKey: Guid(7846323804921cb429fa82552991a231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Materials/Tarbo_CITY.mat using Guid(7846323804921cb429fa82552991a231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07064e56f6fbe77a0f1e4bb368156499') in 0.190739 seconds 
+  Import took 0.194051 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000562 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_5.mat
-  artifactKey: Guid(98e53d161cf0c1746b9b445b5ccf04a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_5.mat using Guid(98e53d161cf0c1746b9b445b5ccf04a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa866a3dce0a362bb9842d1b39a64e9') in 0.037217 seconds 
-  Import took 0.046413 seconds .
+  Time since last request: 25.885504 seconds.
+  path: Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_4_Black.FBX
+  artifactKey: Guid(9efb295787d77544a8937ea2d2ecc1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_4_Black.FBX using Guid(9efb295787d77544a8937ea2d2ecc1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04c52818ee874d17dd5a92931674305') in 0.160094 seconds 
+  Import took 0.164886 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_V.mat
-  artifactKey: Guid(8f006dcc5fc939b4aadb6ff7d61e25f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_V.mat using Guid(8f006dcc5fc939b4aadb6ff7d61e25f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af2057edb83e60f1f4a83d5aa1864d8') in 0.033739 seconds 
-  Import took 0.037860 seconds .
+  Time since last request: 0.000253 seconds.
+  path: Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_A_Black.FBX
+  artifactKey: Guid(e05e20f043eca2f48b9c4e8e42a2ecf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_A_Black.FBX using Guid(e05e20f043eca2f48b9c4e8e42a2ecf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0da056f2dae25a1cbed8ee1060d965') in 0.045561 seconds 
+  Import took 0.050430 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_-.mat
-  artifactKey: Guid(923c51bc30b7e2e4b8d32d2ad3dd257d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Usa_Number_-.mat using Guid(923c51bc30b7e2e4b8d32d2ad3dd257d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1b2d01d955a6271e6cec5fc0e12912') in 0.028490 seconds 
-  Import took 0.033449 seconds .
+  Time since last request: 0.000312 seconds.
+  path: Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_4Set_Yellow.FBX
+  artifactKey: Guid(562a672c760337a45a412c06df031197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_4Set_Yellow.FBX using Guid(562a672c760337a45a412c06df031197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3295efc6e102cad3ee4623379a424b') in 0.054202 seconds 
+  Import took 0.057428 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_8.mat
-  artifactKey: Guid(06ae0c5992fcca54195466ed3249e1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_8.mat using Guid(06ae0c5992fcca54195466ed3249e1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e83413ce7ed32dc53f0fe583f727cf') in 0.041288 seconds 
-  Import took 0.048580 seconds .
+  Time since last request: 0.000249 seconds.
+  path: Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_4_Yellow.FBX
+  artifactKey: Guid(5eaf8fa1624f47d49a80ca79919a02ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_4_Yellow.FBX using Guid(5eaf8fa1624f47d49a80ca79919a02ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51964baa4b32bb3d124f9dfc297e5f49') in 0.058120 seconds 
+  Import took 0.064018 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_J.mat
-  artifactKey: Guid(5fa2aa579abd9b84bb1e89c9763b2182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_J.mat using Guid(5fa2aa579abd9b84bb1e89c9763b2182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0003d0f196f67c7d55fd02497b6f84d3') in 0.033492 seconds 
-  Import took 0.039153 seconds .
+  Time since last request: 0.000300 seconds.
+  path: Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_4Set_Green.FBX
+  artifactKey: Guid(f7ccb89f0f7df274085bad061afe7981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_4Set_Green.FBX using Guid(f7ccb89f0f7df274085bad061afe7981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374c65e330f634441c968014ce9f3f37') in 0.046581 seconds 
+  Import took 0.056975 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001379 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_S.mat
-  artifactKey: Guid(6595c00481d75ad46bee797278dfc560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_S.mat using Guid(6595c00481d75ad46bee797278dfc560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa1715d73a297041ea8774ce67a3016') in 0.036102 seconds 
-  Import took 0.045982 seconds .
+  Time since last request: 0.000464 seconds.
+  path: Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_A_Green.FBX
+  artifactKey: Guid(461787c622cc92c46b76683cfb427ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_A_Green.FBX using Guid(461787c622cc92c46b76683cfb427ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6f6a9fe418dfbf42d8eb949eee803f') in 0.065463 seconds 
+  Import took 0.071441 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_B.mat
-  artifactKey: Guid(1597301e6e058794fbee2ca43e9defd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_B.mat using Guid(1597301e6e058794fbee2ca43e9defd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a8e89309dacbabaf92a852fe5bc46b') in 0.030292 seconds 
-  Import took 0.040636 seconds .
+  Time since last request: 0.000297 seconds.
+  path: Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_4Set_Black.FBX
+  artifactKey: Guid(b4fcf8538076eb74c9b0120bc54b58c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_4Set_Black.FBX using Guid(b4fcf8538076eb74c9b0120bc54b58c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98559277e7053075c0780ba86409391e') in 0.084815 seconds 
+  Import took 0.090483 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000949 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_Z.mat
-  artifactKey: Guid(2179fc51122966644beadfa5a1916212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Main/Meshes/Materials/Numbers_License_Plate/Eu_Number_Z.mat using Guid(2179fc51122966644beadfa5a1916212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a2b39d3cfc6395286187021ee9c3fe') in 0.040829 seconds 
-  Import took 0.048625 seconds .
+  Time since last request: 0.000262 seconds.
+  path: Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_4_white.FBX
+  artifactKey: Guid(d7b6dfda273f0234496e3d6cdbbe4927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_4_white.FBX using Guid(d7b6dfda273f0234496e3d6cdbbe4927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd8970e6b5124183c9cb47232a07725') in 0.038082 seconds 
+  Import took 0.042643 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.230101 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20
-  artifactKey: Guid(6a161c009da5ead48969849daa9e0808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20 using Guid(6a161c009da5ead48969849daa9e0808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0d70860f24c518a29a7271dd8a167b') in 0.011746 seconds 
-  Import took 0.019213 seconds .
+  Time since last request: 0.000415 seconds.
+  path: Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_A_Whtie.FBX
+  artifactKey: Guid(d1dbdee4f256f3a42bd503d6c624977d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_A_Whtie.FBX using Guid(d1dbdee4f256f3a42bd503d6c624977d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbaf57c939ddcabe8190e0354dd34fc') in 0.046629 seconds 
+  Import took 0.051587 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.797352 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Textures
-  artifactKey: Guid(92e5d92d0cc8a8241b2351ffe271d263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Textures using Guid(92e5d92d0cc8a8241b2351ffe271d263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f058cc79dbab2768c31ba445ee334d') in 0.007158 seconds 
-  Import took 0.012109 seconds .
+  Time since last request: 0.000224 seconds.
+  path: Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_A_Yellow.FBX
+  artifactKey: Guid(a0f4891a3a0c44c4f9c606fb2fd8a206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_A_Yellow.FBX using Guid(a0f4891a3a0c44c4f9c606fb2fd8a206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2a0c89dcf5d71b3bf27994d3da9838') in 0.039601 seconds 
+  Import took 0.043724 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.062986 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Textures/BodyAlbedo.tga
-  artifactKey: Guid(5b55988d5acc27f489481a228e152676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Textures/BodyAlbedo.tga using Guid(5b55988d5acc27f489481a228e152676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41db751c1e77efc38c83c06dbca28fc') in 0.058556 seconds 
-  Import took 0.062240 seconds .
+  Time since last request: 0.000212 seconds.
+  path: Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_4_Green.FBX
+  artifactKey: Guid(ad51b4616bb54234ca0f78417b251022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_4_Green.FBX using Guid(ad51b4616bb54234ca0f78417b251022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0491e4eb3f5dbfb37468c4aaa884806c') in 0.036924 seconds 
+  Import took 0.040227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_4Set_White.FBX
+  artifactKey: Guid(7186b076798c1fb42a5410afeb599166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Meshes/TB_CITY_Prop_TrafficLight_4Set_White.FBX using Guid(7186b076798c1fb42a5410afeb599166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beba528d52e293de62eec0810a0b4e2b') in 0.046091 seconds 
+  Import took 0.050288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.813354 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road
+  artifactKey: Guid(d525097032824e24f90f71ea7de24fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road using Guid(d525097032824e24f90f71ea7de24fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15f665afc5c5c4234e6708505f78685') in 0.015826 seconds 
+  Import took 0.019952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.469925 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4_Black.prefab
+  artifactKey: Guid(4270f2a69da41c04f9d1bb111e805c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4_Black.prefab using Guid(4270f2a69da41c04f9d1bb111e805c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1d80978a6f8d07bb595a73ca5b009c') in 0.026207 seconds 
+  Import took 0.030850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_A_Green.prefab
+  artifactKey: Guid(b7c57068961755c498f5f15f0ce6fc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_A_Green.prefab using Guid(b7c57068961755c498f5f15f0ce6fc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c2f5e77edfe0a57a915ef1ff55b857') in 0.030389 seconds 
+  Import took 0.035478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4_White.prefab
+  artifactKey: Guid(2d6add7df6bf8e44bb2fe494a7653cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4_White.prefab using Guid(2d6add7df6bf8e44bb2fe494a7653cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434d0fa59e70ad679202ea3ea282fca5') in 0.031431 seconds 
+  Import took 0.037690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4Set_Black.prefab
+  artifactKey: Guid(967db41cbc4a3c24eb1e31617647bf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4Set_Black.prefab using Guid(967db41cbc4a3c24eb1e31617647bf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b62d1d4b660ce65240a42e255e4ac28') in 0.028275 seconds 
+  Import took 0.035442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4Set_Yellow.prefab
+  artifactKey: Guid(8f845198ed09c3c4bac1cbc4fce5e435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4Set_Yellow.prefab using Guid(8f845198ed09c3c4bac1cbc4fce5e435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e24f1453d91dabf10c3a81d3c6f6a4d') in 0.030874 seconds 
+  Import took 0.034205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_A_Yellow.prefab
+  artifactKey: Guid(57fb76bdd2c93e54d93dbe1ed0847ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_A_Yellow.prefab using Guid(57fb76bdd2c93e54d93dbe1ed0847ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5380bbe53649972d9178b827c75c7eb8') in 0.026836 seconds 
+  Import took 0.033569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4_Green.prefab
+  artifactKey: Guid(593a5e824ef786145bd29dc420e1ff1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4_Green.prefab using Guid(593a5e824ef786145bd29dc420e1ff1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f49e2f20dac78164e9af448c9d57d3') in 0.027245 seconds 
+  Import took 0.034536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_A_Black.prefab
+  artifactKey: Guid(682f8b1e793d91f43b2ec051e8fd4f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_A_Black.prefab using Guid(682f8b1e793d91f43b2ec051e8fd4f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85b3bdaf42ade66a24c213ba86110f7') in 0.028071 seconds 
+  Import took 0.032451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_A_White.prefab
+  artifactKey: Guid(1784f1ee57872f34fba1ed9e509053e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_A_White.prefab using Guid(1784f1ee57872f34fba1ed9e509053e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c88fa6538ea25d86f92913991015e1') in 0.030635 seconds 
+  Import took 0.037367 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000236 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Textures/BodyMetallicSmoothness.tga
-  artifactKey: Guid(ede66da7a6dd69a48a0c749051d73377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Textures/BodyMetallicSmoothness.tga using Guid(ede66da7a6dd69a48a0c749051d73377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075ccf0b77d7b88dcfbdd59aaf9624e7') in 0.037065 seconds 
-  Import took 0.041623 seconds .
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_B_Black.prefab
+  artifactKey: Guid(a5faf4711ef4cef489a20f0ef5c5e8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_B_Black.prefab using Guid(a5faf4711ef4cef489a20f0ef5c5e8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e456700afd01d4406cca73093b719af7') in 0.033120 seconds 
+  Import took 0.041441 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Textures/LightOn.tga
-  artifactKey: Guid(7e76a2900b8ef784c879ee39eb378b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Textures/LightOn.tga using Guid(7e76a2900b8ef784c879ee39eb378b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd615906f3bdbc2f0f9b120e1527919a2') in 0.020159 seconds 
-  Import took 0.026020 seconds .
+  Time since last request: 0.000216 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4Set_White.prefab
+  artifactKey: Guid(fe4b5c3076c71e442af97fe15b069b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4Set_White.prefab using Guid(fe4b5c3076c71e442af97fe15b069b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe97e694541f99762e0ac051dad0fac1') in 0.024624 seconds 
+  Import took 0.030308 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Textures/PaintNormal.tga
-  artifactKey: Guid(77885f081f106cb4d8c0a1eb68e15724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Textures/PaintNormal.tga using Guid(77885f081f106cb4d8c0a1eb68e15724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f9aefad080f5ba08320b557496c668') in 0.098056 seconds 
-  Import took 0.102957 seconds .
+  Time since last request: 0.000288 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4Set_Green.prefab
+  artifactKey: Guid(43811916c3a68664fb20a7a6928f7442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4Set_Green.prefab using Guid(43811916c3a68664fb20a7a6928f7442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec4d9972d25a66d7d4a935d6d0b82c3') in 0.024495 seconds 
+  Import took 0.030198 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Textures/PaintAo.tga
-  artifactKey: Guid(2f27400d9b7e6b34991a91ccd23b0f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Textures/PaintAo.tga using Guid(2f27400d9b7e6b34991a91ccd23b0f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7de8ba517057757133ce625fc00fe8') in 0.091247 seconds 
-  Import took 0.095867 seconds .
+  Time since last request: 0.000226 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4_Yellow.prefab
+  artifactKey: Guid(d35163183e7953f4ea576a1593d4a894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_4_Yellow.prefab using Guid(d35163183e7953f4ea576a1593d4a894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4df3b60c30cbf46f8f2d13cf5ac03d') in 0.028843 seconds 
+  Import took 0.034810 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Textures/BodyNormal.tga
-  artifactKey: Guid(e7f660b30d46aa144a84452fcb85e265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Textures/BodyNormal.tga using Guid(e7f660b30d46aa144a84452fcb85e265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1cd6173508b3bf47b1750a5296e1b0') in 0.045921 seconds 
-  Import took 0.049987 seconds .
+  Time since last request: 3.764797 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_B_Green.prefab
+  artifactKey: Guid(c227da9241072dd4fb78210df9553677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_B_Green.prefab using Guid(c227da9241072dd4fb78210df9553677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886acc2708fd51f842e2e9ad7b1bd63e') in 0.018176 seconds 
+  Import took 0.024261 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.825387 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Driver_EU.prefab
-  artifactKey: Guid(6f39632663e189a43ba1dba6a3232eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Driver_EU.prefab using Guid(6f39632663e189a43ba1dba6a3232eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae39a4fb3c4c4829bc1c60c05e30ced') in 1.627192 seconds 
-  Import took 1.638055 seconds .
+  Time since last request: 0.000282 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_B_White.prefab
+  artifactKey: Guid(0b059522cff844f419f1c035f72b495f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_B_White.prefab using Guid(0b059522cff844f419f1c035f72b495f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43261879433f3fa63fcfa5f2e033601f') in 0.060595 seconds 
+  Import took 0.064733 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Static_USA.prefab
-  artifactKey: Guid(37ec82ab8eba1384baadcaa1d88b7f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Static_USA.prefab using Guid(37ec82ab8eba1384baadcaa1d88b7f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2efddcc6191485d23107b5dce0960092') in 0.182007 seconds 
-  Import took 0.190939 seconds .
+  Time since last request: 0.000240 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_B_Yellow.prefab
+  artifactKey: Guid(bb5be0490bf0b1e4b9cd260f2887fc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_B_Yellow.prefab using Guid(bb5be0490bf0b1e4b9cd260f2887fc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3173fec14d9359d802ff529e85d5dacc') in 0.051915 seconds 
+  Import took 0.060190 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Driver_USA.prefab
-  artifactKey: Guid(c3c0d86c0e789a244b1295717c5bc208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Driver_USA.prefab using Guid(c3c0d86c0e789a244b1295717c5bc208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39da72e8e83074b1cef6b8421c05f407') in 0.164933 seconds 
-  Import took 0.173426 seconds .
+  Time since last request: 23.339850 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_Base_I_A.prefab
+  artifactKey: Guid(d01359581b30d274798a2908a7b0b1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_Base_I_A.prefab using Guid(d01359581b30d274798a2908a7b0b1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a574887d504367791d868a5c04fdae2') in 0.023395 seconds 
+  Import took 0.031572 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Static_EU.prefab
-  artifactKey: Guid(5bb1f14131476c74a95504263bf0558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/SportCar20_Static_EU.prefab using Guid(5bb1f14131476c74a95504263bf0558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c4260a981e36201e8c2bd77bc50ffa') in 0.107979 seconds 
-  Import took 0.119774 seconds .
+  Time since last request: 0.000491 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_Base_I_B.prefab
+  artifactKey: Guid(0fdaa51f7c203e64cba6c5500b58460d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_Base_I_B.prefab using Guid(0fdaa51f7c203e64cba6c5500b58460d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fdb7724bb5e1473316fe8464332930') in 0.041247 seconds 
+  Import took 0.048806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_Base_T_A.prefab
+  artifactKey: Guid(8e2f290b45ca5f5448c07439efb86dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_Base_T_A.prefab using Guid(8e2f290b45ca5f5448c07439efb86dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47828ee112dbf257a8ef0608b30bd84f') in 0.038235 seconds 
+  Import took 0.043551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 251.911010 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_Base_T_B.prefab
+  artifactKey: Guid(55376877acb72ac49affb123544bdb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_Base_T_B.prefab using Guid(55376877acb72ac49affb123544bdb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf64f4b126001b50cec9c6945d6c8f9d') in 0.036391 seconds 
+  Import took 0.041394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_C_Black.prefab
+  artifactKey: Guid(9f7d9f7144dc2a640949188aaf615f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_C_Black.prefab using Guid(9f7d9f7144dc2a640949188aaf615f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c23dda9d71544ca863e025e37c3d6d') in 0.056575 seconds 
+  Import took 0.060871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_C_Green.prefab
+  artifactKey: Guid(8e9ae156b744bcb46a1127513188d623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_C_Green.prefab using Guid(8e9ae156b744bcb46a1127513188d623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3c587850c61d9f61275e2f7cdd137b') in 0.045016 seconds 
+  Import took 0.061307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.540524 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_C_White.prefab
+  artifactKey: Guid(0341bdd42105e2e4a8534e6d5e15f6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_C_White.prefab using Guid(0341bdd42105e2e4a8534e6d5e15f6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb74de36a0f98cd88e50b662a3dc4b3') in 0.029919 seconds 
+  Import took 0.034157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_HSet_Black.prefab
+  artifactKey: Guid(893ca2168422874479700e7bdeb2420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_HSet_Black.prefab using Guid(893ca2168422874479700e7bdeb2420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd860d4be98f9f22f329549b03fc8ba35') in 0.044436 seconds 
+  Import took 0.051973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001827 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_C_Yellow.prefab
+  artifactKey: Guid(ce24a87ab63913d45abd62c7c97f2b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_C_Yellow.prefab using Guid(ce24a87ab63913d45abd62c7c97f2b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df402ef68ef0d1e8a63466ffb55265c8') in 0.050310 seconds 
+  Import took 0.056198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002392 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_HSet_Green.prefab
+  artifactKey: Guid(149299d47b9e73442b755810e20a94db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_HSet_Green.prefab using Guid(149299d47b9e73442b755810e20a94db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7112328448ed0cd7f64a0c85d8447569') in 0.042828 seconds 
+  Import took 0.056159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_HSet_White.prefab
+  artifactKey: Guid(1262e16160fc5f8488102c16691970f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_HSet_White.prefab using Guid(1262e16160fc5f8488102c16691970f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9188b4032be7415ce54c979325218f7a') in 0.040775 seconds 
+  Import took 0.044910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_HSet_Yellow.prefab
+  artifactKey: Guid(bf3d68831a14b034097ac0b569f49a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_HSet_Yellow.prefab using Guid(bf3d68831a14b034097ac0b569f49a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f3355067d4b1c458f6939bcff028d5') in 0.044736 seconds 
+  Import took 0.055801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.884439 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_VSet_Black.prefab
+  artifactKey: Guid(597e85f7f9640614fb81bc56394201e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_VSet_Black.prefab using Guid(597e85f7f9640614fb81bc56394201e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c1a5352bf348c6a83d01ead8a1e2bd') in 0.029445 seconds 
+  Import took 0.034437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_VSet_White.prefab
+  artifactKey: Guid(3bf2a3dc060bfea4cbad4dec395d2ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_VSet_White.prefab using Guid(3bf2a3dc060bfea4cbad4dec395d2ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03bc43416730480fa4a2c4026b135b32') in 0.048873 seconds 
+  Import took 0.053266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_VSet_Green.prefab
+  artifactKey: Guid(c9aa0a2fd3b0e4448914e57ffb78cb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_VSet_Green.prefab using Guid(c9aa0a2fd3b0e4448914e57ffb78cb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7bfcbbb5e375684365894f81953366') in 0.056925 seconds 
+  Import took 0.062473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.388292 seconds.
+  path: Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_VSet_Yellow.prefab
+  artifactKey: Guid(798f386d6a290cb46afae69c990cb793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traffic Lights/Prefabs/Props/Road/TB_CITY_Prop_TrafficLight_VSet_Yellow.prefab using Guid(798f386d6a290cb46afae69c990cb793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be25dc629d4753e4f08e26582def639a') in 0.027637 seconds 
+  Import took 0.031949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 394.942572 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6a35c3cddc746e7501c0bd0ed6d4ce') in 0.034564 seconds 
+  Import took 0.038950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.405929 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes
+  artifactKey: Guid(448dbcd5653aa0a43a23bc59ef24dcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes using Guid(448dbcd5653aa0a43a23bc59ef24dcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d109f6ba215767d7a62ad3bebcfb722') in 0.015040 seconds 
+  Import took 0.022236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072473 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/SportCar20.FBX
+  artifactKey: Guid(f119de429d72e0b4daed64783cf54fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/SportCar20.FBX using Guid(f119de429d72e0b4daed64783cf54fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198be1429590dd2af7345a07bd5a02c1') in 1.046061 seconds 
+  Import took 1.056493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/BrakeDiscGlow.mat
+  artifactKey: Guid(ffb39343dc3158743bd14c97c15642f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/BrakeDiscGlow.mat using Guid(ffb39343dc3158743bd14c97c15642f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06a8b6f060e5faf91191a4e8247e6fc') in 0.035830 seconds 
+  Import took 0.040073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Number_0.mat
+  artifactKey: Guid(40470b0427877c54b8a1760637a59b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Number_0.mat using Guid(40470b0427877c54b8a1760637a59b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73ef872fbc158c79ddac8047f54434f') in 0.034901 seconds 
+  Import took 0.038885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004744 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Number_3.mat
+  artifactKey: Guid(ca68963d4253f2441b7cff2018753711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Number_3.mat using Guid(ca68963d4253f2441b7cff2018753711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2977e63ca4bd57925d6365e9360ba788') in 0.035856 seconds 
+  Import took 0.048636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001165 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Number_5.mat
+  artifactKey: Guid(a764aee1e3db4ff45a455e718b72aedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Number_5.mat using Guid(a764aee1e3db4ff45a455e718b72aedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f77a46e5f0250dbdc91a157247240ae') in 0.031622 seconds 
+  Import took 0.035711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Number_1.mat
+  artifactKey: Guid(3420d1493ec4ea24da0475630dd2b202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Number_1.mat using Guid(3420d1493ec4ea24da0475630dd2b202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356e7e6a402160d17649060d2cd90304') in 0.053651 seconds 
+  Import took 0.064044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/BlackWindows.mat
+  artifactKey: Guid(f765cc479be827b43bfe884cbc37e03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/BlackWindows.mat using Guid(f765cc479be827b43bfe884cbc37e03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03721ecb36ab0deaa9ad28add8c326e5') in 0.062788 seconds 
+  Import took 0.067857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/BodyAlbedo.mat
+  artifactKey: Guid(6e3df92b52926d449842ad9475ee73a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/BodyAlbedo.mat using Guid(6e3df92b52926d449842ad9475ee73a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3503bb1cb0ba0e1ac5f9ea0acd2ed17') in 0.063643 seconds 
+  Import took 0.068942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/MainAlbedo.mat
+  artifactKey: Guid(c10b5d8ae76fb1f44a676fe3f1b41f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/MainAlbedo.mat using Guid(c10b5d8ae76fb1f44a676fe3f1b41f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566472b4e853919b92f4ba2c64854392') in 0.053056 seconds 
+  Import took 0.060304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Glass.mat
+  artifactKey: Guid(30d0eba5f4d2b3a43a11d22198e57a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Glass.mat using Guid(30d0eba5f4d2b3a43a11d22198e57a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec4e0cc8a7123ec9ee53ac4d1cd986d') in 0.040857 seconds 
+  Import took 0.057276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Number_4.mat
+  artifactKey: Guid(bf75f96291559b541842b219e5e6dc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Number_4.mat using Guid(bf75f96291559b541842b219e5e6dc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc5a8e374f43ab46e5f7e174f538a11') in 0.041423 seconds 
+  Import took 0.047076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials
+  artifactKey: Guid(5ffc9ebe979e9734494eaad6224eef96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials using Guid(5ffc9ebe979e9734494eaad6224eef96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16149464046b866c721db8880eff8a2') in 0.017533 seconds 
+  Import took 0.021240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/LightOn.mat
+  artifactKey: Guid(6bfb8cbbad7a0a446b75972933d04c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/LightOn.mat using Guid(6bfb8cbbad7a0a446b75972933d04c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3531eb2ba9fd880b787356b36ec96023') in 0.042017 seconds 
+  Import took 0.049989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011423 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/LicensePlateEuAlbedo.mat
+  artifactKey: Guid(db99a13ef60c2704394ad0f69f588b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/LicensePlateEuAlbedo.mat using Guid(db99a13ef60c2704394ad0f69f588b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e423e6f6b6ebfd5d29759e04247d5a60') in 0.051422 seconds 
+  Import took 0.065882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/LicensePlateUsAlbedo.mat
+  artifactKey: Guid(afa993407efe3d9458380642206b58fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/LicensePlateUsAlbedo.mat using Guid(afa993407efe3d9458380642206b58fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d92349b3198b4987ff1c78b611ef406') in 0.045253 seconds 
+  Import took 0.048934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.622033 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Number_6.mat
+  artifactKey: Guid(6655a7fea1a438f41b1668f84bc4349c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Number_6.mat using Guid(6655a7fea1a438f41b1668f84bc4349c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9306d03a37ada5bf97a49fb5fd2222') in 0.024327 seconds 
+  Import took 0.029577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Number_7.mat
+  artifactKey: Guid(7270bb17f2c62424cbeb7c1471cdfc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Number_7.mat using Guid(7270bb17f2c62424cbeb7c1471cdfc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c288846768396f65322332f21a6bb75b') in 0.035642 seconds 
+  Import took 0.043258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Paint.mat
+  artifactKey: Guid(9fd48feac9006d746980eb35788bf14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Paint.mat using Guid(9fd48feac9006d746980eb35788bf14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d816714d7e05c31eb1c2fba69972edc') in 0.094713 seconds 
+  Import took 0.103177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Tire01Albedo.mat
+  artifactKey: Guid(ae153dc30d59a18488e2f8e2f27986f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Tire01Albedo.mat using Guid(ae153dc30d59a18488e2f8e2f27986f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a106c54df577786f08eb0595d628852') in 0.052126 seconds 
+  Import took 0.055163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Usa_Number_2.mat
+  artifactKey: Guid(bd700772bfdf6ab438992764a2a0a511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Usa_Number_2.mat using Guid(bd700772bfdf6ab438992764a2a0a511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af365bb2b54359067eb8bce3ee412df7') in 0.041000 seconds 
+  Import took 0.048299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Usa_Number_1.mat
+  artifactKey: Guid(85721581115123c4aa839048691bdf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Usa_Number_1.mat using Guid(85721581115123c4aa839048691bdf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994d5be55c41f68bb6612173d7dd1cec') in 0.056545 seconds 
+  Import took 0.060449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.565061 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Usa_Number_3.mat
+  artifactKey: Guid(062a23b74c9d54a40af8bd76e35e1b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Usa_Number_3.mat using Guid(062a23b74c9d54a40af8bd76e35e1b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6296cb112b29d356c149918db2e116a0') in 0.019888 seconds 
+  Import took 0.023939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Usa_Number_5.mat
+  artifactKey: Guid(cd0f644a3537fc14f814bd5974c2d48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Usa_Number_5.mat using Guid(cd0f644a3537fc14f814bd5974c2d48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cc38358ee0985ce8084dc7e5c1e10f') in 0.029356 seconds 
+  Import took 0.040335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Usa_Number_4.mat
+  artifactKey: Guid(6465b763d741e46409f3c1ca6085a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Usa_Number_4.mat using Guid(6465b763d741e46409f3c1ca6085a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147868c44ed2bba9a3c270995ba4d2b5') in 0.031604 seconds 
+  Import took 0.036935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075686 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Usa_Number_6.mat
+  artifactKey: Guid(bef95103f6f992340a79558c6d47e452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Usa_Number_6.mat using Guid(bef95103f6f992340a79558c6d47e452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ac48a95e46eefcf8fee2055c7d1161') in 0.016036 seconds 
+  Import took 0.024822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Wheel.mat
+  artifactKey: Guid(37bfd96a479327144a6116a996f495d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Wheel.mat using Guid(37bfd96a479327144a6116a996f495d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91373b15fb2f5c533aa0379fda048abc') in 0.060012 seconds 
+  Import took 0.065901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Usa_Number_7.mat
+  artifactKey: Guid(49de8ac77e72386488f51f1f55ef2af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Vehicle/SportCar20/Meshes/Materials/Usa_Number_7.mat using Guid(49de8ac77e72386488f51f1f55ef2af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef5b868913913c95b69c9c5d87691b0') in 0.029743 seconds 
+  Import took 0.034975 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012426 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.201 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2202ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (104ms)
+		EndReloadAssembly (1883ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (587ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (898ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (295ms)
+				ProcessInitializeOnLoadAttributes (524ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.6 MB.
+System memory in use after: 85.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1975.
+Total: 3.992300 ms (FindLiveObjects: 0.208500 ms CreateObjectMapping: 0.060800 ms MarkObjects: 3.690500 ms  DeleteObjects: 0.030700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011333 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.732 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1733ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1415ms)
+			LoadAssemblies (200ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (535ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (478ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (341ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.6 MB.
+System memory in use after: 85.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1977.
+Total: 3.206700 ms (FindLiveObjects: 0.198200 ms CreateObjectMapping: 0.053700 ms MarkObjects: 2.933300 ms  DeleteObjects: 0.020000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 156.650109 seconds.
+  path: Assets/Cars/Materials
+  artifactKey: Guid(9f95edd36aea8ba4faea8ae5f01d9eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Materials using Guid(9f95edd36aea8ba4faea8ae5f01d9eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8069d5069637456155f30a28459fd7') in 0.005300 seconds 
+  Import took 0.008297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.712934 seconds.
+  path: Assets/Cars/Models
+  artifactKey: Guid(db19142075ca3cb4c9d9f0a5f409ad76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Models using Guid(db19142075ca3cb4c9d9f0a5f409ad76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27b06d794c267dcf777e6c9a96b817b') in 0.016441 seconds 
+  Import took 0.020096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.139109 seconds.
+  path: Assets/Cars/Models/Cars
+  artifactKey: Guid(cc49e4e8d93d23f4980b8aef6cec0b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Models/Cars using Guid(cc49e4e8d93d23f4980b8aef6cec0b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3eb4b2d8cbdfbf9ae1498a00d9bf0e2') in 0.015727 seconds 
+  Import took 0.023866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.538213 seconds.
+  path: Assets/Cars/Models/Cars/Car3_Police
+  artifactKey: Guid(7ba34adf9740588408d824e1e8b8bed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Models/Cars/Car3_Police using Guid(7ba34adf9740588408d824e1e8b8bed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825f9dfd50cbe47776a9213417d573f0') in 0.019792 seconds 
+  Import took 0.027173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.410510 seconds.
+  path: Assets/Cars/Models/Cars/Car3
+  artifactKey: Guid(3018406880159174d933e11c49105c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Models/Cars/Car3 using Guid(3018406880159174d933e11c49105c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da66982fb722c1e60d4c6dd40543c17') in 0.015243 seconds 
+  Import took 0.022009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074013 seconds.
+  path: Assets/Cars/Models/Cars/Car3/Car3.FBX
+  artifactKey: Guid(1ef13bdc53bd75d41bff0665f89b55be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Models/Cars/Car3/Car3.FBX using Guid(1ef13bdc53bd75d41bff0665f89b55be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3ba187ab35356c5bf929e72c94d458') in 0.143422 seconds 
+  Import took 0.148495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.960537 seconds.
+  path: Assets/Cars/Models/Cars/Car3_Police/Car3_Police.FBX
+  artifactKey: Guid(fde7b43d8a1f39e4e9ca3689877cdbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Models/Cars/Car3_Police/Car3_Police.FBX using Guid(fde7b43d8a1f39e4e9ca3689877cdbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ce52f1b9ac61ac4e1fa2fe75620306') in 0.074576 seconds 
+  Import took 0.078639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.110948 seconds.
+  path: Assets/Cars/Materials/Floor.mat
+  artifactKey: Guid(8743883e9e64c85498a3d59db13fa3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Materials/Floor.mat using Guid(8743883e9e64c85498a3d59db13fa3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70dbba196a9ee4adcf0de4126fb753c5') in 0.298417 seconds 
+  Import took 0.302473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.049125 seconds.
+  path: Assets/Cars/Materials/Cars
+  artifactKey: Guid(c781c29500adffd4c950eada10007fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Materials/Cars using Guid(c781c29500adffd4c950eada10007fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1bad39acd217019f348990a1b71a07') in 0.008171 seconds 
+  Import took 0.012022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072802 seconds.
+  path: Assets/Cars/Materials/Cars/Alarm.mat
+  artifactKey: Guid(e81c88913a13e8d4dbd1089dac08203f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Materials/Cars/Alarm.mat using Guid(e81c88913a13e8d4dbd1089dac08203f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a66e72012e4f71353b773df49f4053') in 0.026758 seconds 
+  Import took 0.031385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Cars/Materials/Cars/SchoolBus.mat
+  artifactKey: Guid(b796f04a9b9dcdf42a55a53c616e9ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Materials/Cars/SchoolBus.mat using Guid(b796f04a9b9dcdf42a55a53c616e9ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fcd2c323d32fd4b455fdf7ac2e1ba81') in 0.038301 seconds 
+  Import took 0.052298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Cars/Materials/Cars/Ambulance.mat
+  artifactKey: Guid(9b7e980d1b571594ab3e80531182be53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Materials/Cars/Ambulance.mat using Guid(9b7e980d1b571594ab3e80531182be53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d6d5f028d5d9298f2f220a51de473c') in 0.034167 seconds 
+  Import took 0.043343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Cars/Materials/Cars/FireTruck.mat
+  artifactKey: Guid(c510bf4fc90f18e4fa6f1a8e8d9b32de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Materials/Cars/FireTruck.mat using Guid(c510bf4fc90f18e4fa6f1a8e8d9b32de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b759c852fd533a571a84eabefbc18dbf') in 0.039183 seconds 
+  Import took 0.054770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.936467 seconds.
+  path: Assets/Cars/Materials/Cars/Car3
+  artifactKey: Guid(032b67df6f82eb94a9b7c28f983a9810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Materials/Cars/Car3 using Guid(032b67df6f82eb94a9b7c28f983a9810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91ce552369bb1630eb380693eea4c58') in 0.005372 seconds 
+  Import took 0.012009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.123376 seconds.
+  path: Assets/Cars/Materials/Cars/Car3/Car3_Blue.mat
+  artifactKey: Guid(503fbeafe8bcaa3488baac9253501005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Materials/Cars/Car3/Car3_Blue.mat using Guid(503fbeafe8bcaa3488baac9253501005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f490a8e3a112c6d22eddb835d4b365') in 0.023419 seconds 
+  Import took 0.027556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Cars/Materials/Cars/Car3/Car3_White.mat
+  artifactKey: Guid(551862d267703d24daac391b6a5c6ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Materials/Cars/Car3/Car3_White.mat using Guid(551862d267703d24daac391b6a5c6ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0386d3d8208286dfbb187c32b990ad') in 0.038872 seconds 
+  Import took 0.044589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Cars/Materials/Cars/Car3/Car3_Green.mat
+  artifactKey: Guid(68ba3eae257fff9408c94aca1516dcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Materials/Cars/Car3/Car3_Green.mat using Guid(68ba3eae257fff9408c94aca1516dcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6015870f08fc94a9a24f4de2ec2051') in 0.038217 seconds 
+  Import took 0.042698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001290 seconds.
+  path: Assets/Cars/Materials/Cars/Car3/Car3_Red.mat
+  artifactKey: Guid(84efaba339eccae48b2360ce2b1e3b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Materials/Cars/Car3/Car3_Red.mat using Guid(84efaba339eccae48b2360ce2b1e3b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b74bbc17ba382a232ec7ec76c0a3a1') in 0.052674 seconds 
+  Import took 0.067201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Cars/Materials/Cars/Car3/Car3_Police.mat
+  artifactKey: Guid(1dbf46e9157cec146978e9c93ced75b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Materials/Cars/Car3/Car3_Police.mat using Guid(1dbf46e9157cec146978e9c93ced75b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6848890f2313a19a823e56583a5b5d34') in 0.048537 seconds 
+  Import took 0.052778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.245376 seconds.
+  path: Assets/Cars/Materials/Cars/MuscleCar1/MuscleCar1_Black.mat
+  artifactKey: Guid(0d24ebb30e8777a40be9a9d4fe48b768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Materials/Cars/MuscleCar1/MuscleCar1_Black.mat using Guid(0d24ebb30e8777a40be9a9d4fe48b768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da35448b00335b56b9d856cd56fd6916') in 0.022710 seconds 
+  Import took 0.026418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Cars/Materials/Cars/MuscleCar1/MuscleCar1_White.mat
+  artifactKey: Guid(171019f069a0cf84f963f7fa2464196e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Materials/Cars/MuscleCar1/MuscleCar1_White.mat using Guid(171019f069a0cf84f963f7fa2464196e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d03a31a36a258237e2ac3ccb329884') in 0.032638 seconds 
+  Import took 0.036935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Cars/Materials/Cars/MuscleCar1/MuscleCar1_Blue.mat
+  artifactKey: Guid(d116c7b7767bb9942951f6047faa23db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Materials/Cars/MuscleCar1/MuscleCar1_Blue.mat using Guid(d116c7b7767bb9942951f6047faa23db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb7dc063d782be78b07d0a6f4c71470') in 0.048878 seconds 
+  Import took 0.054029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Cars/Materials/Cars/MuscleCar1/MuscleCar1_Red.mat
+  artifactKey: Guid(a09222f53ce8d30489b7bc0a28f33f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Materials/Cars/MuscleCar1/MuscleCar1_Red.mat using Guid(a09222f53ce8d30489b7bc0a28f33f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1486d9283350dce054d92d35f7e24b11') in 0.033847 seconds 
+  Import took 0.040814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001268 seconds.
+  path: Assets/Cars/Materials/Cars/MuscleCar1/MuscleCar1_Green.mat
+  artifactKey: Guid(027c9a8e4d25b624eb2401de4724786c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Materials/Cars/MuscleCar1/MuscleCar1_Green.mat using Guid(027c9a8e4d25b624eb2401de4724786c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0372617cf71bef8f01ebd186b3afd1a0') in 0.051046 seconds 
+  Import took 0.056032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.204148 seconds.
+  path: Assets/Cars/Prefabs/Cars
+  artifactKey: Guid(b0376097e5dda9748b0e951381b6bc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/Cars using Guid(b0376097e5dda9748b0e951381b6bc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d2ac51dbba0ddebfe4b2f8623dd2dc') in 0.005271 seconds 
+  Import took 0.010209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088448 seconds.
+  path: Assets/Cars/Prefabs/Cars/Ambulance.prefab
+  artifactKey: Guid(b0d18b00362894e4abebed9e691ca9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/Cars/Ambulance.prefab using Guid(b0d18b00362894e4abebed9e691ca9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08547e1607bba40cfd9c4a66068d394') in 0.027388 seconds 
+  Import took 0.032834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Cars/Prefabs/Cars/SchoolBus.prefab
+  artifactKey: Guid(90e62dd7d612f104699e288b098370de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/Cars/SchoolBus.prefab using Guid(90e62dd7d612f104699e288b098370de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db7635bb9a768cccc1a003deabdf397') in 0.037173 seconds 
+  Import took 0.041438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Cars/Prefabs/Cars/FireTruck.prefab
+  artifactKey: Guid(78fbdc1cee9117f40bd9bf4f96b51a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/Cars/FireTruck.prefab using Guid(78fbdc1cee9117f40bd9bf4f96b51a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8d5d516bbead0dec765f021eb19a0e') in 0.038217 seconds 
+  Import took 0.051171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Cars/Prefabs/Cars/MuscleCar2.prefab
+  artifactKey: Guid(52dce0384a160774aa85791275a8dcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/Cars/MuscleCar2.prefab using Guid(52dce0384a160774aa85791275a8dcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cedfbe50b62392bb45aec4e69f441f4') in 0.043134 seconds 
+  Import took 0.046414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Cars/Prefabs/Cars/Trailer1.prefab
+  artifactKey: Guid(54635a7f2a4b7574999a08e6a6b29917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/Cars/Trailer1.prefab using Guid(54635a7f2a4b7574999a08e6a6b29917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6891cf22f1177b2dfa6fa441bb0bdf6') in 0.057482 seconds 
+  Import took 0.062831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Cars/Prefabs/Cars/MuscleCar1.prefab
+  artifactKey: Guid(9c48be62fa9178d4aa2702466e7ca60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/Cars/MuscleCar1.prefab using Guid(9c48be62fa9178d4aa2702466e7ca60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d9ab1798201e2642df662fa6fc56bc') in 0.042050 seconds 
+  Import took 0.055823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Cars/Prefabs/Cars/Trailer1_Static.prefab
+  artifactKey: Guid(071d9384d25899041a1c860234a4e3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/Cars/Trailer1_Static.prefab using Guid(071d9384d25899041a1c860234a4e3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ffeb62b2b4539cb5af600a2d781374') in 0.046146 seconds 
+  Import took 0.049476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Cars/Prefabs/Cars/SUV1_Police.prefab
+  artifactKey: Guid(6f71ee308d8a86b4c9302e2100d9c16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/Cars/SUV1_Police.prefab using Guid(6f71ee308d8a86b4c9302e2100d9c16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed410f1a50be8e2cb64190d78b27ec0') in 0.052132 seconds 
+  Import took 0.055685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Cars/Prefabs/Cars/Truck1.prefab
+  artifactKey: Guid(444439d16363a2147813456ce782a5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/Cars/Truck1.prefab using Guid(444439d16363a2147813456ce782a5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05efdbb3f9581bfe195ddbcd71907eb9') in 0.054423 seconds 
+  Import took 0.061041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Cars/Prefabs/Cars/SUV1.prefab
+  artifactKey: Guid(1b63695fe568d1a4f847e88c776f16ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/Cars/SUV1.prefab using Guid(1b63695fe568d1a4f847e88c776f16ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a69da9ce3992212c5e40a9524dac676') in 0.062945 seconds 
+  Import took 0.068472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Cars/Prefabs/Cars/PickUp1.prefab
+  artifactKey: Guid(0ed50dde8db5be741a767aa2b957046d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/Cars/PickUp1.prefab using Guid(0ed50dde8db5be741a767aa2b957046d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a7090c39bea2dbc02c9f8091da3146') in 0.059701 seconds 
+  Import took 0.071206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Cars/Prefabs/Cars/Car3_Police.prefab
+  artifactKey: Guid(e372d664b0cb5ef4db121886f54cf441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/Cars/Car3_Police.prefab using Guid(e372d664b0cb5ef4db121886f54cf441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b4c9419a52cfd6511ebf5cb8765704') in 0.038696 seconds 
+  Import took 0.042909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Cars/Prefabs/Cars/Car3.prefab
+  artifactKey: Guid(fc90d3fa10c18fa41aa65b843f8f0d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cars/Prefabs/Cars/Car3.prefab using Guid(fc90d3fa10c18fa41aa65b843f8f0d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afb5961517c7b2baebc440ce863acab') in 0.046062 seconds 
+  Import took 0.050616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.792002 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec1b8783abf395bd931a4089d331551') in 0.006123 seconds 
+  Import took 0.010943 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
