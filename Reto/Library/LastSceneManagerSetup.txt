@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/ModularLowpolyStreetsFree/Scenes/Demo.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0

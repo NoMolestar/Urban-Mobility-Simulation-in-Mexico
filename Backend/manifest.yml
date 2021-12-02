@@ -1,0 +1,4 @@
+---
+applications:
+  - name: Intersection Simulation
+    random-route: true
